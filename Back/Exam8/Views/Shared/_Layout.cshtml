@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="~/assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <nav class="navbar  container">
+                <div class="container-fluid">
+                  <p class="navbar-brand"><img src="./assets/img/logo.png" alt=""> Awesome App</p>
+                  <div class="d-flex home ">
+                    <a>HOME
+                    </a>
+                    <a>FEATURES</a>
+                    <a>PRICING</a>
+                  </div>
+                  <button type="button" class="btn btn-outline-light  btn-rounded" data-mdb-ripple-color="dark">Secondary</button>
+                </div>
+                </div>
+              </nav>
+        </nav>
+
+        <section class="section1 container ">
+           <div class="row">
+                <div class="col-md-6">
+                    <h1>Awesome App <br>
+                        App Landing Template</h1>
+                        <p>
+                            An awesome landing page template to showcase your app features, screenshots, pricing, user testimonials and download links.
+                        </p>
+                        <p><i class="bi bi-check-circle"></i>  Amazing Design to Present Your App</p>
+                        <p><i class="bi bi-check-circle"></i> Fully Responsive and Powered by Bootstrap & PaperKit</p>
+                        <p><i class="bi bi-check-circle"></i> Very Easy to Customize and Setup
+                        </p>
+                        <div class="pt-5">
+
+                            <button type="button" class="btn btn-outline-light  btn-rounded" data-mdb-ripple-color="dark">Secondary</button>
+                        </div>
+                    </div>
+                 <div class="col-md-6">
+                    <img src="~/assets/img/1.jpg" alt="">
+                </div>
+            </div
+        </section>
+    </header>
+            @RenderBody()
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="bi bi-instagram"></i>
+         </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="bi bi-instagram"></i>
+         </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="bi bi-instagram"></i>
+         </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="bi bi-instagram"></i>
+         </a>
+      
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+    <script src="~/assets/js/main.js"></script>
+</body>
+</html>
